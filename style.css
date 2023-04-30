@@ -1,0 +1,280 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #FFDBC5;
+
+}
+
+h1 {
+  font-size: 3.4375rem;
+  width: 45%;
+  margin: 0 auto 0 auto;
+  font-family: 'Caveat', cursive;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #423144;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #423144;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1b1717;
+  font-size: 2rem;
+
+}
+
+a{
+  color: #FFDBC5;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #1b1717;
+}
+
+.aNazivSkole {
+  font-size: 3.4375rem;
+  width: 45%;
+  margin: 0 auto 0 auto;
+  font-family: 'Caveat', cursive;
+  margin-top: 50px;
+  color: #423144;
+  text-decoration: none;
+}
+
+.ah3 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-style: oblique;
+  color: #e69595;
+}
+
+a.ah3:hover {
+  background-color: #b85353;
+  text-decoration: inherit;
+}
+
+
+.iznadDiv{
+  background-color: #900d0d;
+}
+.gornjiDiv{
+  background-color: #FFDBC5;
+  position: relative;
+  padding-top: 100px;
+
+}
+.srednjiDiv1{
+  background-color: #900d0d;
+
+}
+.srednjiDiv2{
+  background-color: #FFDBC5;
+}
+.donjiDiv{
+  background-color: #900d0d;
+  padding: 50px 0 20px;
+}
+
+.metaPitanja {
+  background-color: #900d0d;
+  color: #FFDBC5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.zanat {
+  background-color: #FFDBC5;
+  position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+.skola {
+  width: 70%;
+  padding-top: 30px;
+}
+.gornji-logo {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+  width: 90px;
+  height: 40px;
+}
+.donji-logo {
+  position: absolute;
+  left:200px;
+  bottom: 300px;
+  width: 90px;
+  height: 40px;
+}
+.razmak {
+  margin-top: 0px;
+
+}
+
+.smer-mehatronika {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  /*line-height: 2; 6. Kako bih u svuda podesila da razmak izmedju redova
+  bude double ovu liniju koda cu premestiti na nivo paragrafa*/
+}
+.mehatronikaImg {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 30px;
+}
+
+.smer-elRacunara {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  /*line-height: 2; 6. Kako bih u svuda podesila da razmak izmedju redova
+  bude double ovu liniju koda cu premestiti na nivo paragrafa*/
+}
+.elRacunaraImg {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 30px;
+}
+
+.smer-ekonomski {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  /*line-height: 2; 6. Kako bih u svuda podesila da razmak izmedju redova
+  bude double ovu liniju koda cu premestiti na nivo paragrafa*/
+}
+.ekonomijaImg {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 30px;
+}
+
+.smer-bravarZavarivac {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding-bottom: 30px;
+  /*line-height: 2; 6. Kako bih u svuda podesila da razmak izmedju redova
+  bude double ovu liniju koda cu premestiti na nivo paragrafa*/
+}
+.bravarZavarivacImg {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 30px;
+}
+
+.smer {
+  color: #FFDBC5;
+  text-align: center;
+
+}
+.text {
+  font-size: 2rem;
+  width: 75%;
+  margin: 0 auto 0 auto;
+  font-family: 'Caveat', cursive;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #423144;
+  text-align:justify;
+
+}
+.text2 {
+  font-size: 2rem;
+  width: 60%;
+  margin: 0 auto 0 auto;
+  font-family: 'Caveat', cursive;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #423144;
+  text-align:right;
+
+}
+
+.planprogram{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: solid 30px;
+    border-color: transparent transparent black transparent;
+}
+
+.btn {
+  background: #900d0d;
+  background-image: -webkit-linear-gradient(top, #e8a7a7, #900d0d);
+  background-image: -moz-linear-gradient(top, #e8a7a7, #900d0d);
+  background-image: -ms-linear-gradient(top, #e8a7a7, #900d0d);
+  background-image: -o-linear-gradient(top, #e8a7a7, #900d0d);
+  background-image: linear-gradient(to bottom, #e8a7a7, #900d0d);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  /*9. menjam font na dugmetu*/
+  font-family:  'Caveat', cursive;
+  color: #FFDBC5;
+  font-size: 3.4375rem;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e69595;
+  background-image: -webkit-linear-gradient(top, #e69595, #ba6868);
+  background-image: -moz-linear-gradient(top, #e69595, #ba6868);
+  background-image: -ms-linear-gradient(top, #e69595, #ba6868);
+  background-image: -o-linear-gradient(top, #e69595, #ba6868);
+  background-image: linear-gradient(to bottom, #e69595, #ba6868);
+  text-decoration: none;
+}
+
+.btnSmer {
+  background: #FFDBC5;
+  background-image: -webkit-linear-gradient(top, #f7e2d5, #FFDBC5);
+  background-image: -moz-linear-gradient(top, #f7e2d5, #FFDBC5);
+  background-image: -ms-linear-gradient(top, #f7e2d5, #FFDBC5);
+  background-image: -o-linear-gradient(top, #f7e2d5, #FFDBC5);
+  background-image: linear-gradient(to bottom, #f7e2d5, #FFDBC5);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  /*9. menjam font na dugmetu*/
+  font-size: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #1b1717;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnSmer:hover {
+  background: #e69595;
+  background-image: -webkit-linear-gradient(top, #e69595, #ba6868);
+  background-image: -moz-linear-gradient(top, #e69595, #ba6868);
+  background-image: -ms-linear-gradient(top, #e69595, #ba6868);
+  background-image: -o-linear-gradient(top, #e69595, #ba6868);
+  background-image: linear-gradient(to bottom, #e69595, #ba6868);
+  text-decoration: none;
+}
