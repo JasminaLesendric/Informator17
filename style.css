@@ -25,7 +25,9 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #1b1717;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  padding-left: 30px;
+  padding-right: 30px;
 
 }
 
